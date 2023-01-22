@@ -1,0 +1,36 @@
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: inline-flex;
+  width: 100%;
+}
+
+.elem {
+  border-style: solid;
+  border-color: black;
+  width: 30%;
+  background-color: forestgreen;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button {
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.button > button {
+  background-color: rgb(67, 67, 150);
+  color: white;
+}
+
+.result {
+  color: white;
+  background-color: brown;
+}
